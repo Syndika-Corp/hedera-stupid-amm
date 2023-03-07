@@ -1,0 +1,34 @@
+{
+  "name": "dex-amm-hedera",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test --network hardhat",
+    "compile": "hardhat compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxCojocari/dex-amm-hedera.git"
+  },
+  "keywords": [],
+  "author": "MaxCojocari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxCojocari/dex-amm-hedera/issues"
+  },
+  "homepage": "https://github.com/MaxCojocari/dex-amm-hedera#readme",
+  "devDependencies": {
+    "@hashgraph/hardhat-hethers": "^1.0.4",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "hardhat": "^2.12.7"
+  },
+  "dependencies": {
+    "@hashgraph/hedera-local": "^2.5.1",
+    "@hashgraph/sdk": "^2.22.0",
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.6",
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "@openzeppelin/contracts": "^4.8.2",
+    "dotenv": "^16.0.3"
+  }
+}
