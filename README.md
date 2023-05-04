@@ -1,6 +1,6 @@
 # Hedera DEX-AMM
 
-This project represents a simple implementation on Hedera Hashgraph of Decentralized Exchange (DEX) contracts using a classical (constant product) Automated Market Maker (AMM).
+This project represents a simple implementation of Decentralized Exchange (DEX) contracts on Hedera Hashgraph using a classical (constant product) Automated Market Maker (AMM).
 
 ## Install all dependences
 
