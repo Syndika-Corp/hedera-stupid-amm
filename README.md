@@ -1,13 +1,19 @@
-# Sample Hardhat Project
+# Hedera DEX-AMM
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project represents a simple implementation on Hedera Hashgraph of Decentralized Exchange (DEX) contracts using a classical (constant product) Automated Market Maker (AMM).
 
-Try running some of the following tasks:
+## Install all dependences
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+`npm i` or `npm install`
+
+## Compile contracts
+
+`npm compile`
+
+## Test contracts
+
+`npm test`
+
+## Deploy to Hedera Testnet
+
+`npx hardhat run scripts/deploy.js`
